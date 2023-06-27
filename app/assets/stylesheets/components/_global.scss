@@ -1,0 +1,26 @@
+body {
+  background-color: darkcyan;
+}
+
+.centrale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerr {
+  background-color: aliceblue;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.results {
+  background-color: midnightblue;
+  height: 80px;
+  width: 350px;
+  display: flex;
+  margin-top: 4vh;
+}
