@@ -1,14 +1,13 @@
 <h1>Calculatrice</h1>
-
 <div class="centrale">
-  <div class="containerr">
+  <div class="containerr" data-controller="calculator">
     <div class="haut">
-      <div class="results"></div>
+      <div id="display" class="results"></div>
       <div class="ligne"></div>
     </div>
 
-    <div class="wrapper">
-      <div>AC</div>
+    <div class="wrapper buttons">
+      <div class="button">C</div>
       <div>+/-</div>
       <div>%</div>
       <div>/</div>
@@ -20,14 +19,13 @@
       <div>5</div>
       <div>6</div>
       <div>-</div>
-      <div>1</div>
-      <div>2</div>
+      <div class="button">1</div>
+      <div class="button">2</div>
       <div>3</div>
-      <div>+</div>
+      <div class="button">+</div>
       <div>0</div>
       <div>,</div>
-      <div>=</div>
-      <%# <div>t</div> %>
+      <div id="equal" class="button">=</div>
     </div>
   </div>
 </div>
